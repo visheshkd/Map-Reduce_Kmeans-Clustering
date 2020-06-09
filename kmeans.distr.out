@@ -1,0 +1,521 @@
+myHadoop: Setting MH_IPOIB_TRANSFORM='s/\([^.]*\).*$/\1.ibnet/' from myhadoop.conf
+myHadoop: Setting MH_SCRATCH_DIR=/scratch/$USER/$SLURM_JOBID from myhadoop.conf
+myHadoop: Using HADOOP_HOME=/opt/hadoop/2.6.0
+myHadoop: Using MH_SCRATCH_DIR=/scratch/vkd1995/26964478
+myHadoop: Using JAVA_HOME=/usr/java/latest
+myHadoop: Generating Hadoop configuration in directory in /home/vkd1995/cometcluster...
+myHadoop: Designating comet-17-12.ibnet as master node (namenode, secondary namenode, and jobtracker)
+_HOME=/opt/hadoop/2.6.0
+myHadoop: Using MH_SCRATCH_DIR=/scratch/vkd1995/26964383
+myHadoop: Using JAVA_HOME=/usr/java/latest
+myHadoop: Generating Hadoop configuration in directory in /home/vkd1995/cometcluster...
+myHadoop: Backing up old config dir to /home/vkd1995/cometcluster.0...
+`/home/vkd1995/cometcluster' -> `/home/vkd1995/cometcluster.0'
+myHadoop: Designating comet-12-37.ibnet as master node (namenode, secondary namenode, and jobtracker)
+et
+comet-23-27.ibnet
+19/09/28 20:46:44 INFO namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+START19/09/28 20:46:44 INFO namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = comet-12-37.sdsc.edu/198.202.112.204
+STARTUP_MSG:   args = [-format]
+STARTUP_MSG:   version = 2.6.0
+STARTUP_MSG:   classpath = /home/vkd1995/cometcluster:/opt/hadoop/2.6.0/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/netty-3.6.2.Final.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/hadoop-auth-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jersey-core-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-configuration-1.6.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/httpclient-4.2.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jsr305-1.3.9.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/httpcore-4.2.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/junit-4.11.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/xz-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jets3t-0.9.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/asm-3.2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/activation-1.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jsch-0.1.42.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/java-xmlbuilder-0.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/htrace-core-3.0.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jasper-runtime-5.5.23.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/slf4j-api-1.7.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-httpclient-3.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/hamcrest-core-1.3.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/stax-api-1.0-2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/servlet-api-2.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-collections-3.2.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-lang-2.6.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/paranamer-2.3.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jersey-server-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/zookeeper-3.4.6.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/snappy-java-1.0.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-io-2.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jetty-util-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/xmlenc-0.52.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-net-3.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/curator-framework-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/mockito-all-1.8.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jasper-compiler-5.5.23.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jettison-1.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-digester-1.8.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/guava-11.0.2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jetty-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/api-util-1.0.0-M20.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/curator-recipes-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-compress-1.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/curator-client-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/gson-2.2.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/hadoop-annotations-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-el-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-codec-1.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jaxb-api-2.2.2.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-beanutils-1.7.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/jersey-json-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/slf4j-log4j12-1.7.5.jar:/opt/hadoop/2.6.0/share/hadoop/common/lib/avro-1.7.4.jar:/opt/hadoop/2.6.0/share/hadoop/common/hadoop-common-2.6.0-tests.jar:/opt/hadoop/2.6.0/share/hadoop/common/hadoop-nfs-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/common/hadoop-common-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jersey-core-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jsr305-1.3.9.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/asm-3.2.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jsp-api-2.1.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/htrace-core-3.0.4.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jasper-runtime-5.5.23.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/servlet-api-2.5.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-lang-2.6.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jersey-server-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-io-2.4.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/xmlenc-0.52.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/guava-11.0.2.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/jetty-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-el-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/lib/commons-codec-1.4.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/hadoop-hdfs-nfs-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/hdfs/hadoop-hdfs-2.6.0-tests.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/netty-3.6.2.Final.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-core-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jsr305-1.3.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/xz-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/asm-3.2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-guice-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-cli-1.2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/activation-1.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-httpclient-3.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/guice-3.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/stax-api-1.0-2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/servlet-api-2.5.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-collections-3.2.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-lang-2.6.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-server-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-client-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/zookeeper-3.4.6.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/guice-servlet-3.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-io-2.4.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jetty-util-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jettison-1.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/guava-11.0.2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jetty-6.1.26.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-logging-1.1.3.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-compress-1.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jline-0.9.94.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/log4j-1.2.17.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/commons-codec-1.4.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/lib/jersey-json-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-common-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-api-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-common-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-registry-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-client-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/yarn/hadoop-yarn-server-tests-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/javax.inject-1.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jersey-core-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/aopalliance-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/junit-4.11.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/xz-1.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/asm-3.2.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/guice-3.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/paranamer-2.3.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jersey-server-1.9.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/commons-io-2.4.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/hadoop-annotations-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/log4j-1.2.17.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/lib/avro-1.7.4.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.6.0.jar:/opt/hadoop/2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-tests.jar:/opt/hadoop/2.6.0/contrib/capacity-scheduler/*.jar
+STARTUP_MSG:   build = https://git-wip-us.apache.org/repos/asf/hadoop.git -r e3496499ecb8d220fba99dc5ed4c99c8f9e33bb1; compiled by 'jenkins' on 2014-11-13T21:10Z
+STARTUP_MSG:   java = 1.8.0_60
+************************************************************/
+19/09/28 20:46:44 INFO namenode.NameNode: registered UNIX signal handlers for [TERM, HUP, INT]
+19/09/28 20:46:44 INFO namenode.NameNode: createNameNode [-format]
+19/09/28 20:46:44 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/09/28 20:46:44 WARN common.Util: Path /scratch/vkd1995/26964383/namenode_data should be specified as a URI in configuration files. Please update hdfs configuration.
+19/09/28 20:46:44 WARN common.Util: Path /scFormatting using clusterid: CID-ae327512-d8f8-4622-b349-a7f29894e898
+19/09/28 20:46:44 INFO namenode.FSNamesystem: No KeyProvider found.
+19/09/28 20:46:44 INFO namenode.FSNamesystem: fsLock is 19/09/28 20:46:44 INFO namenode.FSNamesystem: No KeyProvider found.
+19/09/28 20:46:44 INFO namenode.FSNamesystem: fsLock is fair:true
+19/09/28 20:46:44 INFO blockmanagement.DatanodeManager: dfs.block.invalidate.limit=1000
+19/09/28 20:46:44 INFO blockmanagement.DatanodeManager: dfs.namenode.datanode.registration.ip-hostname-check=true
+19/09/28 20:46:44 INFO blockmanagement.BlockManager: dfs.namenode.startup.delay.block.deletion.sec is set to 000:00:00:00.000
+19/09/28 20:46:44 INFO blockmanagement.BlockManager: The block deletion will start around 2019 Sep 28 20:46:44
+19/09/28 20:46:44 INFO util.GSet: Computing capacity for map BlocksMap
+19/09/28 20:46:44 INFO util.GSet: VM type       = 64-bit
+19/09/28 20:46:44 INFO util.GSet: 2.0% max memory 958.5 MB = 19.2 MB
+19/09/28 20:46:44 INFO util.GSet: capacity      = 2^21 = 2097152 entries
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: dfs.block.access.token.enable=false
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: defaultReplication         = 3
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: maxReplication             = 512
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: minReplication             = 1
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: maxReplicationStreams      = 2
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: shouldCheckForEnoughRacks  = false
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: replicationRecheckInterval = 3000
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: encryptDataTransfer        = false
+19/09/28 20:46:45 INFO blockmanagement.BlockManager: maxNumBlocksToLog          = 1000
+19/09/28 20:46:45 INFO namenode.FSNamesystem: fsOwner             = vkd1995 (auth:SIMPLE)
+19/09/28 20:46:45 INFO namenode.FSNamesystem: supergroup          = supergroup
+19/09/28 20:46:45 INFO namenode.FSNamesystem: isPermissionEnabled = true
+19/09/28 20:46:45 INFO namenode.FSNamesystem: HA Enabled: false
+19/09/28 20:46:45 INFO namenode.FSNamesystem: Append Enabled: true
+19/09/28 20:46:45 INFO util.GSet: Computing capacity for map INodeMap
+19/09/28 20:46:45 INFO util.GSet: VM type       = 64-bit
+19/09/28 20:46:45 INFO util.GSet: 1.0% max memory 958.5 MB = 9.6 MB
+19/09/28 20:46:45 INFO util.GSet: capacity      = 2^20 = 1048576 entries
+19/09/28 20:46:45 INFO namenode.NameNode: Caching file names occuring more than 10 times
+19/09/28 20:46:45 INFO util.GSet: Computing capacity for map cachedBlocks
+19/09/28 20:46:45 INFO util.GSet: VM type       = 64-bit
+19/09/28 20:46:45 INFO util.GSet: 0.25% max memory 958.5 MB = 2.4 MB
+19/09/28 20:46:45 INFO util.GSet: capacity      = 2^18 = 262144 entries
+19/09/28 20:46:45 INFO namenode.FSNamesystem: dfs.namenode.safemode.threshold-pct = 0.9990000128746033
+19/09/28 20:46:45 INFO namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+19/09/28 20:46:45 INFO namenode.FSNamesystem: dfs.namenode.safemode.extension     = 30000
+19/09/28 20:46:45 INFO namenode.FSNamesystem: Retry cache on namenode is enabled
+19/09/28 20:46:45 INFO namenode.FSNamesystem: Retry cache will use 0.03 of total heap and retry cache entry expiry time is 600000 millis
+19/09/28 20:46:45 INFO util.GSet: Computing capacity for map NameNodeRetryCache
+19/09/28 20:46:45 INFO util.GSet: VM type       = 64-bit
+19/09/28 20:46:45 INFO util.GSet: 0.029999999329447746% max memory 958.5 MB = 294.5 KB
+19/09/28 20:46:45 INFO util.GSet: capacity      = 2^15 = 32768 entries
+19/09/28 20:46:45 INFO namenode.NNConf: ACLs enabled? false
+19/09/28 20:46:45 INFO namenode.NNConf: XAttrs enabled? true
+19/09/28 20:46:45 INFO namenode.NNConf: Maximum size of an xattr: 16384
+19/09/28 20:46:45 INFO namenode.FSImage: Allocated new BlockPoolId: BP-1007171997-198.202.112.204-1569728805189
+19/09/28 20:46:45 INFO common.Storage: Storage directory /scratch/vkd1995/26964383/namenode_data has been successfully formatted.
+19/09/28 20:46:45 INFO namenode.NNStorageRetentionManager: Going to retain 1 images with txid >= 0
+19/09/28 20:46:45 INFO util.ExitUtil: Exiting with status 0
+19/09/28 20:46:45 INFO namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at comet-12-37.sdsc.edu/198.202.112.204
+************************************************************/
+19/09/28 20:46:45 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Starting namenodes on [comet-17-12.ibnet]
+Starting namenodes on [comet-12-37.ibnet]
+comet-17-12.ibnet: starting namenode, logging to /scratch/vkd1995/26964478/logs/hadoop-vkd1995-namenode-comet-17-12.sdsc.edu.out
+comet-12-37.ibnet: starting namenode, logging to /scratch/vkd1995/26964383/logs/hadoop-vkd1995-namenode-comet-12-37.sdsc.edu.out
+comet-17-12.ibnet: starting datanode, logging to /scratch/vkd1995/26964478/logs/hadoop-vkd1995-datanode-comet-17-12.sdsc.edu.out
+comet-23-27.ibnet: mkdir: cannot create directory `/scratch/vkd1995/26964383': Permission denied
+comet-23-27.ibnet: chown: cannotcomet-22-55.ibnet: starting datanode, logging to /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-22-55.sdsc.edu.out
+kd1995/26964383': Permission denied
+comet-23-27.ibnet: starting datanode, logging to /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-23-27.sdsc.edu.out
+comet-23-27.ibnet: /opt/hadoop/2.6.0/sbin/hadoop-daemon.sh: line 165: /scratch/vkd1995/26964383/pids/hadoop-vkd1995-datanode.pid: No such file or directory
+comet-23-27.ibnet: /opt/hadoop/2.6.0/sbin/hadoop-daemon.sh: line 159: /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-23-27.sdsc.edu.out: No such file or directory
+comet-23-27.ibnet: head: cannot open `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-23-27.sdsc.edu.out' for reading: No such file or directory
+comet-23-27.ibnet: /opt/hadoop/2.6.0/sbin/hadoop-daemon.sh: line 177: /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-23-27.sdsc.edu.out: No such file or directory
+comet-23-27.ibnet: /opt/hadoop/2.6.0/sbin/hadoop-daemon.sh: line 178: /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-23-27.sdsc.edu.out: No such file or directory
+comet-20-45.ibnet: mkdir: cannot create directory `/scratch/vkd1995/26964383': Permission denied
+comet-20-45.ibnet: chown: cannot access `/scratch/vkd1995/26964383/logs': No such file or directory
+comet-20-45.ibnet: mkdir: cannot create directory `/scratch/vkd1995/26964383': Permission denied
+comet-20-45.ibnet: starting datanode, logging to /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-20-45.sdsc.edu.out
+comet-20-45.ibnet: /opt/hadoop/2.6.0/sbin/hadoop-daemon.sh: line 165: /scratch/vkd1995/26964383/pids/hadoop-vkd1995-datanode.pid: No such file or directory
+comet-20-45.ibnet: /opt/hadoop/2.6.0/sbin/hadoop-daemon.sh: line 159: /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-20-45.sdsc.edu.out: No such file or directory
+comet-20-45.ibnet: head: cannot open `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-20-45.sdsc.edu.out' for reading: No such file or directory
+comet-20-45.ibnet: /opt/hadoop/2.6.0/sbin/hadoop-daemon.sh: line 177: /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-20-45.sdsc.edu.out: No such file or directory
+comet-20-45.ibnet: /opt/hadoop/2.6.0/sbin/hadoop-daemon.sh: line 178: /scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-20-45.sdsc.edu.out: No such file or directory
+Starting secondary namenodes [comet-17-12.ibnet]
+/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-22-71.sdsc.edu.out
+Starting secondary namenodes [comet-12-37.ibnet]
+comet-17-12.ibnet: starting secondarynamenode, logging to /scratch/vkd1995/26964478/logs/hadoop-vkd1995-secondarynamenode-comet-17-12.sdsc.edu.out
+19/09/28 20:47:01 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable19/09/28 20:47:01 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes wherecomet-17-12.ibnet: starting nodemanager, logging to /scratch/vkd1995/26964478/logs/yarn-vkd1995-nodemanager-comet-17-12.sdsc.edu.out
+met-12-37.out
+comet-12-37.ibnet: starting nodemanager, logging to /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-12-37.sdsc.edu.out
+ess `/scratch/vkd1995/26964383/logs': No such file or directory
+comet-20-45.ibnet: mkdir: cannot create directory `/scratch/vkd1995/26964383': Permission denied
+comet-20-45.ibnet: starting nodemanager, logging to /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-20-45.sdsc.edu.out
+comet-20-45.ibnet: /opt/hadoop/2.6.0/sbin/yarn-daemon.sh: line 125: /scratch/vkd1995/26964383/pids/yarn-vkd1995-nodemanager.pid: No such file or directory
+comet-20-45.ibnet: /opt/hadoop/2.6.0/sbin/yarn-daemon.sh: line 124: /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-20-45.sdsc.edu.out: No such file or directory
+comet-20-45.ibnet: head: cannot open `/scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-20-45.sdsc.edu.out' for reading: No such file or directory
+comet-20-45.ibnet: /opt/hadoop/2.6.0/sbin/yarn-daemon.sh: line 129: /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-20-45.sdsc.edu.out: No such file or directory
+comet-20-45.ibnet: /opt/hadoop/2.6.0/sbin/yarn-daemon.sh: line 130: /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-20-45.sdsc.edu.out: No such file or directory
+comet-23-27.ibnet: mkdir: cannot create directory `/scratch/vkd1995/26964383': Permission denied
+comet-23-27.ibnet: chown: cannot access `/scratch/vkd1995/26964383/logs': No such file or directory
+comet-23-27.ibnet: mkdir: cannot create directory `/scratch/vkd1995/26964383': Permission denied
+comet-23-27.ibnet: starting nodemanager, logging to /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-23-27.sdsc.edu.out
+comet-23-27.ibnet: /opt/hadoop/2.6.0/sbin/yarn-daemon.sh: line 125: /scratch/vkd1995/26964383/pids/yarn-vkd1995-nodemanager.pid: No such file or directory
+comet-23-27.ibnet: /opt/hadoop/2.6.0/sbin/yarn-daemon.sh: line 124: /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-23-27.sdsc.edu.out: No such file or directory
+comet-23-27.ibnet: head: cannot open `/scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-23-27.sdsc.edu.out' for reading: No such file or directory
+comet-23-27.ibnet: /opt/hadoop/2.6.0/sbin/yarn-daemon.sh: line 129: /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-23-27.sdsc.edu.out: No such file or directory
+comet-23-27.ibnet: /opt/hadoop/2.6.0/sbin/yarn-daemon.sh: line 130: /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-23-27.sdsc.edu.out: No such file or directory
+19/09/28 20:47:04 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+et: starting nodemanager, logging to /scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-22-71.sdsc.edu.out
+19/09/28 20:47:05 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/09/28 20:47:05 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/09/28 20:47:08 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/09/28 20:47:09 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/09/28 20:47:09 INFO client.RMProxy: Connecting to ResourceManager at comet-12-37.ibnet/10.22.253.10:8032
+19/09/28 20:47:09 WARN mapreduce.JobSubmitter: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/09/28 20:47:09 INFO input.FileInputFormat: Total input paths to process : 1
+19/09/28 20:47:09 INFO mapreduce.JobSubmitter: number of splits:1
+19/09/28 20:47:09 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1569728822254_0001
+19/09/28 20:47:10 INFO impl.YarnClientImpl: Submitted application application_1569728822254_0001
+19/09/28 20:47:10 INFO mapreduce.Job: The url to track the job: http://comet-12-37.ibnet:8088/proxy/application_1569728822254_0001/
+19/09/28 20:47:10 INFO mapreduce.Job: Running job: job_1569728822254_0001
+
+19/09/28 20:47:15 INFO mapreduce.Job: Job job_1569728822254_0001 running in uber mode : false
+19/09/28 20:47:15 INFO mapreduce.Job:  map 0% reduce 0%
+19/09/28 20:47:19 INFO mapreduce.Job: Job job_1569728822211_0001 failed with state FAILED due to: Application application_1569728822211_0001 failed 2 times due to AM Container for appattempt_1569728822211_0001_000002 exited with  exitCode: 1
+For more detailed output, check application tracking page:http://comet-17-12.ibnet:8088/proxy/application_1569728822211_0001/Then, click on links to logs of each attempt.
+Diagnostics: Exception from container-launch.
+Container id: container_1569728822211_0001_02_000001
+Exit code: 1
+Stack trace: ExitCodeException exitCode=1: 
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:538)
+	at org.apache.hadoop.util.Shell.run(Shell.java:455)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:715)
+	at org.apache.hadoop.yarn.server.nodemanager.DefaultContainerExecutor.launchContainer(DefaultContainerExecutor.java:211)
+	at org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch.call(ContainerLaunch.java:302)
+	at org.apache.hadoop.yarn.server.nodemanager.containermanager.launcher.ContainerLaunch.call(ContainerLaunch.java:82)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+Container exited with a non-zero exit code 1
+Failing this attempt. Failing the application.
+19/09/28 20:47:19 INFO mapreduce.Job: Counters: 0
+19/09/28 20:47:20 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+get: `/user/vkd1995/output/part*': No such file or directory
+stopping yarn daemons
+mkdir: cannot create directory `/scratch/vkd1995/26964383': Permission denied
+chown: cannot access `/scratch/vkd1995/26964383/logs': No such file or directory
+no resourcemanager to stop
+19/09/28 20:47:23 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:24 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:25 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:26 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:27 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:28 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:29 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:30 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:31 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:32 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:33 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:34 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:35 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:36 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:37 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:38 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:39 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:40 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:42 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:43 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:44 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:45 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:46 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:47 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:48 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741832_1008.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741831'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741836'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741834_1010.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741825'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741826_1002.meta'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/VERSION'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/dfsUsed'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/rbw'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/dncp_block_verification.log.prev'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/VERSION'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data'
+removed `/scratch/vkd1995/26964383/pids/yarn-vkd1995-resourcemanager.pid'
+removed directory: `/scratch/vkd1995/26964383/pids'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-secondarynamenode-comet-12-37.sdsc.edu.out'
+removed `/scratch/vkd1995/26964383/logs/yarn-vkd1995-resourcemanager-comet-12-37.log'
+removed `/scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-12-37.sdsc.edu.log'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-12-37.sdsc.edu.out'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-namenode-comet-12-37.sdsc.edu.out'
+removed `/scratch/vkd1995/26964383/logs/SecurityAuth-vkd1995.audit'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-namenode-comet-12-37.sdsc.edu.log'
+removed `/scratch/vkd1995/26964383/logs/yarn-vkd1995-resourcemanager-comet-12-37.out'
+removed `/scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-12-37.sdsc.edu.out'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-12-37.sdsc.edu.log'
+removed `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001/container_1569728822254_0001_01_000002/stdout'
+removed `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001/container_1569728822254_0001_01_000002/syslog'
+removed `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001/container_1569728822254_0001_01_000002/stderr'
+removed directory: `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001/container_1569728822254_0001_01_000002'
+removed directory: `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001'
+removed directory: `/scratch/vkd1995/26964383/logs/userlogs'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-secondarynamenode-comet-12-37.sdsc.edu.log'
+removed directory: `/scratch/vkd1995/26964383/logs'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/filecache'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/usercache'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/nmPrivate'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/rbw'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/VERSION'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741825'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741825_1001.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741836'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741828_1004.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741831_1007.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741831'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741828'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741826'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741835'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741832'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741836_1012.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741830_1006.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741829_1005.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741829'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741830'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741832_1008.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741834_1010.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741826_1002.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741835_1011.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741827_1003.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741833'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741834'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741833_1009.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741827'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/dfsUsed'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/tmp'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/dncp_block_verification.log.curr'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/dncp_block_verification.log.prev'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/VERSION'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data'
+removed directory: `/scratch/vkd1995/26964383/pids'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-22-55.sdsc.edu.out'
+removed directory: `/scratch/vkd1995/26964383/logs/userlogs'
+removed `/scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-22-55.sdsc.edu.log'
+removed `/scratch/vkd1995/26964383/logs/SecurityAuth-vkd1995.audit'
+removed `/scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-22-55.sdsc.edu.out'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-22-55.sdsc.edu.log'
+removed directory: `/scratch/vkd1995/26964383/logs'
+removed `/scratch/vkd1995/26964383/mapred_scratch/filecache/10/centroids.txt'
+removed `/scratch/vkd1995/26964383/mapred_scratch/filecache/10/.tmp_centroids.txt.crc'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/filecache/10'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/filecache'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/nmPrivate'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/usercache/vkd1995/appcache'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/usercache/vkd1995/filecache'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/usercache/vkd1995'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch/usercache'
+removed directory: `/scratch/vkd1995/26964383/mapred_scratch'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/VERSION'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/VERSION'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/rbw'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/dfsUsed'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741827_1003.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741827'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741835_1011.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741834'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741833'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741833_1009.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741832_1008.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741826_1002.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741830'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741829'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741834_1010.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741832'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741829_1005.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741830_1006.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741835'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741836_1012.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741826'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741831_1007.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741828'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741828_1004.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741831'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741825_1001.meta'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741836'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0/blk_1073741825'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0/subdir0'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized/subdir0'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current/finalized'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/current'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/tmp'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/dncp_block_verification.log.prev'
+removed `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189/dncp_block_verification.log.curr'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current/BP-1007171997-198.202.112.204-1569728805189'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data/current'
+removed directory: `/scratch/vkd1995/26964383/hdfs_data'
+removed directory: `/scratch/vkd1995/26964383/pids'
+removed `/scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-22-71.sdsc.edu.log'
+removed `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001/container_1569728822254_0001_01_000001/stdout'
+removed `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001/container_1569728822254_0001_01_000001/syslog'
+removed `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001/container_1569728822254_0001_01_000001/stderr'
+removed directory: `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001/container_1569728822254_0001_01_000001'
+removed directory: `/scratch/vkd1995/26964383/logs/userlogs/application_1569728822254_0001'
+removed directory: `/scratch/vkd1995/26964383/logs/userlogs'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-22-71.sdsc.edu.log'
+removed `/scratch/vkd1995/26964383/logs/hadoop-vkd1995-datanode-comet-22-71.sdsc.edu.out'
+removed `/scratch/vkd1995/26964383/logs/yarn-vkd1995-nodemanager-comet-22-71.sdsc.edu.out'
+removed `/scratch/vkd1995/26964383/logs/SecurityAuth-vkd1995.audit'
+removed directory: `/scratch/vkd1995/26964383/logs'
+removed directory: `/tmp/Jetty_0_0_0_0_38634_mapreduce____kle99j/jsp'
+removed `/tmp/Jetty_0_0_0_0_38634_mapreduce____kle99j/webapp/webapps/mapreduce/.keep'
+removed directory: `/tmp/Jetty_0_0_0_0_38634_mapreduce____kle99j/webapp/webapps/mapreduce'
+removed directory: `/tmp/Jetty_0_0_0_0_38634_mapreduce____kle99j/webapp/webapps'
+removed directory: `/tmp/Jetty_0_0_0_0_38634_mapreduce____kle99j/webapp'
+removed directory: `/tmp/Jetty_0_0_0_0_38634_mapreduce____kle99j/.active'
+removed directory: `/tmp/Jetty_0_0_0_0_38634_mapreduce____kle99j'
+removed directory: `/tmp/Jetty_0_0_0_0_50075_datanode____hwtdwq_3254087634130171595/jsp'
+removed directory: `/tmp/Jetty_0_0_0_0_50075_datanode____hwtdwq_3254087634130171595/.active'
+removed directory: `/tmp/Jetty_0_0_0_0_50075_datanode____hwtdwq_3254087634130171595'
+removed directory: `/tmp/Jetty_0_0_0_0_50070_hdfs____w2cu08/jsp'
+removed directory: `/tmp/Jetty_0_0_0_0_50070_hdfs____w2cu08/.active'
+removed directory: `/tmp/Jetty_0_0_0_0_50070_hdfs____w2cu08'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_50090_secondary____.xn6h3m/jsp'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_50090_secondary____.xn6h3m/.active'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_50090_secondary____.xn6h3m'
+removed directory: `/tmp/Jetty_0_0_0_0_39586_mapreduce____handho/jsp'
+removed `/tmp/Jetty_0_0_0_0_39586_mapreduce____handho/webapp/webapps/mapreduce/.keep'
+removed directory: `/tmp/Jetty_0_0_0_0_39586_mapreduce____handho/webapp/webapps/mapreduce'
+removed directory: `/tmp/Jetty_0_0_0_0_39586_mapreduce____handho/webapp/webapps'
+removed directory: `/tmp/Jetty_0_0_0_0_39586_mapreduce____handho/webapp'
+removed directory: `/tmp/Jetty_0_0_0_0_39586_mapreduce____handho/.active'
+removed directory: `/tmp/Jetty_0_0_0_0_39586_mapreduce____handho'
+removed directory: `/tmp/Jetty_0_0_0_0_8042_node____19tj0x_7690429876253764631/jsp'
+removed `/tmp/Jetty_0_0_0_0_8042_node____19tj0x_7690429876253764631/webapp/webapps/node/.keep'
+removed directory: `/tmp/Jetty_0_0_0_0_8042_node____19tj0x_7690429876253764631/webapp/webapps/node'
+removed directory: `/tmp/Jetty_0_0_0_0_8042_node____19tj0x_7690429876253764631/webapp/webapps'
+removed directory: `/tmp/Jetty_0_0_0_0_8042_node____19tj0x_7690429876253764631/webapp'
+removed directory: `/tmp/Jetty_0_0_0_0_8042_node____19tj0x_7690429876253764631/.active'
+removed directory: `/tmp/Jetty_0_0_0_0_8042_node____19tj0x_7690429876253764631'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_8088_cluster____.hcchd0/jsp'
+removed `/tmp/Jetty_comet.17.12_ibnet_8088_cluster____.hcchd0/webapp/webapps/cluster/.keep'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_8088_cluster____.hcchd0/webapp/webapps/cluster'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_8088_cluster____.hcchd0/webapp/webapps'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_8088_cluster____.hcchd0/webapp'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_8088_cluster____.hcchd0/.active'
+removed directory: `/tmp/Jetty_comet.17.12_ibnet_8088_cluster____.hcchd0'
+19/09/28 20:47:49 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:50 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:51 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:52 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:53 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:54 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:55 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:56 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:57 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:58 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:47:59 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:00 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:01 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:02 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:03 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:04 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:05 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:06 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:07 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:08 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:10 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:11 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:12 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:13 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:14 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:15 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:16 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:17 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:18 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:19 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:20 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:21 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:22 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:23 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:24 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:25 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:26 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:27 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:28 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:29 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:30 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:31 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:32 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:33 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:34 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:35 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:36 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:37 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:38 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:39 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:41 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:42 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:43 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:44 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:45 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:46 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:47 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:48 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:49 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:50 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:51 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:52 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:53 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:54 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:55 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:56 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:57 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:58 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:48:59 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:00 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:01 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:02 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:03 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:04 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:05 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:06 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:07 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:08 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:09 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:10 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:12 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:13 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:14 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:15 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:16 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:17 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:18 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:19 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:20 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:21 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:22 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:23 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:24 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:25 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:26 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:27 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:28 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:29 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:30 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:31 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:32 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:33 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:34 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:35 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:36 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:37 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:38 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:40 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:41 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:42 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:43 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:44 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:45 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:46 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:47 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:48 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:49 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:50 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:51 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:52 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:53 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:54 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:55 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:56 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:57 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:58 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:49:59 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:50:00 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:50:01 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:50:02 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
+19/09/28 20:50:03 INFO ipc.Client: Retrying connect to server: comet-22-71.sdsc.edu/198.202.117.136:43241. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=3, sleepTime=1000 MILLISECONDS)
